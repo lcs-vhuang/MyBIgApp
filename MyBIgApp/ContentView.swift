@@ -10,38 +10,34 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack{
-            VStack{
+            VStack(alignment: .leading){
                 
-                HStack{
-                    Text("1984")
-                        .font(.system(.largeTitle, design: .default, weight: .bold))
-                    Spacer()
-                }
-                .padding()
+                Text("1984")
+                    .font(.system(.largeTitle, design: .default, weight: .bold))
+                    .padding()
                 
-                HStack{
-                    Text("by George Orwell")
-                        .font(.system(size: 22.0, weight: .regular, design: .default))
-                        .foregroundStyle(.purple)
-                    Spacer()
-                }
-                .padding()
+                Text("by George Orwell")
+                    .font(.system(size: 22.0, weight: .regular, design: .default))
+                    .foregroundStyle(.purple)
+                    .padding()
                 
                 HStack{
                     Rectangle()
                         .aspectRatio(3.0/5.0, contentMode: .fit)
                         .containerRelativeFrame(.vertical, count: 7, span: 2, spacing: 0)
                         .padding()
-                    VStack(alignment: .leading, spacing: 0){
+                    VStack(alignment: .leading){
                         bookDetail(detailTItle: "Genre", detail: "Science Ficiton")
                         bookDetail(detailTItle: "Date Started", detail: "April 3, 2025")
                         bookDetail(detailTItle: "Date Finished", detail: "April 9, 2025")
-
                     }
-                    
+                }
+                HStack{
+                        Text("Star Rating")
+                    }
                     Spacer()
                     
-                }
+                Spacer()
                 .toolbar{
                     ToolbarItem(placement: .topBarLeading){
                         Button {
@@ -60,15 +56,4 @@ struct ContentView: View {
     ContentView()
 }
 
-struct bookDetail: View{
-    
-    var detailTItle: String
-    var detail: String
-    
-    var body: some View{
-        Text(detailTItle)
-            .font(.system(size: 20.0, weight: .medium, design: .default))
-        Text(detail)
-            .font(.system(size: 20.0, weight: .regular, design: .default))
-    }
-}
+

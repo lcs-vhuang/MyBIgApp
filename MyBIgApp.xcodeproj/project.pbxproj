@@ -53,8 +53,8 @@
 			children = (
 				A67FEA782F54C9DE00712BBF /* Assets.xcassets */,
 				A67FEA7B2F54C9DE00712BBF /* MyBIgAppApp.swift */,
-				A67FEA792F54C9DE00712BBF /* bookDetail.swift */,
 				A67FEA7A2F54C9DE00712BBF /* ContentView.swift */,
+				A67FEA792F54C9DE00712BBF /* bookDetail.swift */,
 			);
 			path = MyBIgApp;
 			sourceTree = "<group>";

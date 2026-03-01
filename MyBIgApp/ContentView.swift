@@ -10,16 +10,22 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack{
-            VStack(alignment: .leading){
+            VStack{
                 
-                Text("1984")
-                    .font(.system(.largeTitle, design: .default, weight: .bold))
-                    .padding()
+                HStack{
+                    Text("1984")
+                        .font(.system(.largeTitle, design: .default, weight: .bold))
+                    Spacer()
+                }
+                .padding()
                 
-                Text("by George Orwell")
-                    .font(.system(size: 22.0, weight: .regular, design: .default))
-                    .foregroundStyle(.purple)
-                    .padding()
+                HStack{
+                    Text("by George Orwell")
+                        .font(.system(size: 22.0, weight: .regular, design: .default))
+                        .foregroundStyle(.purple)
+                    Spacer()
+                }
+                .padding()
                 
                 HStack{
                     Rectangle()
@@ -31,11 +37,31 @@ struct ContentView: View {
                         bookDetail(detailTItle: "Date Started", detail: "April 3, 2025")
                         bookDetail(detailTItle: "Date Finished", detail: "April 9, 2025")
                     }
-                }
-                HStack{
-                        Text("Star Rating")
-                    }
                     Spacer()
+                }
+                
+                VStack{
+                    HStack{
+                        Text("Star Rating")
+                            .font(.system(size: 20.0, weight: .medium, design: .default))
+                        Spacer()
+                        }
+                    HStack{
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                        Image(systemName: "star.fill")
+                        Spacer()
+                    }
+                    .foregroundStyle(.yellow)
+                }
+                .padding()
+                
+                VStack(alignment: .leading){
+                    bookDetail(detailTItle: "Review", detail: "A timeless epic with more relevance today than ever.")
+                }
+                
                     
                 Spacer()
                 .toolbar{

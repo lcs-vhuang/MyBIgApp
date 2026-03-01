@@ -51,12 +51,20 @@
 		A67FEA7C2F54C9DE00712BBF /* MyBIgApp */ = {
 			isa = PBXGroup;
 			children = (
-				A67FEA782F54C9DE00712BBF /* Assets.xcassets */,
 				A67FEA7B2F54C9DE00712BBF /* MyBIgAppApp.swift */,
-				A67FEA7A2F54C9DE00712BBF /* ContentView.swift */,
-				A67FEA792F54C9DE00712BBF /* bookDetail.swift */,
+				A67FEA812F54CF9A00712BBF /* View */,
 			);
 			path = MyBIgApp;
+			sourceTree = "<group>";
+		};
+		A67FEA812F54CF9A00712BBF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A67FEA7A2F54C9DE00712BBF /* ContentView.swift */,
+				A67FEA792F54C9DE00712BBF /* bookDetail.swift */,
+				A67FEA782F54C9DE00712BBF /* Assets.xcassets */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

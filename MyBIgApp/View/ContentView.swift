@@ -32,7 +32,7 @@ struct ContentView: View {
                         .aspectRatio(3.0/5.0, contentMode: .fit)
                         .containerRelativeFrame(.vertical, count: 7, span: 2, spacing: 0)
                         .padding()
-                    VStack(alignment: .leading){
+                    VStack(alignment: .leading, spacing: 15){
                         bookDetail(detailTItle: "Genre", detail: "Science Ficiton")
                         bookDetail(detailTItle: "Date Started", detail: "April 3, 2025")
                         bookDetail(detailTItle: "Date Finished", detail: "April 9, 2025")

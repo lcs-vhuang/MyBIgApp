@@ -14,9 +14,13 @@ struct bookDetail: View{
     var detail: String
     
     var body: some View{
-        Text(detailTItle)
-            .font(.system(size: 20.0, weight: .medium, design: .default))
-        Text(detail)
-            .font(.system(size: 20.0, weight: .regular, design: .default))
+        VStack(alignment: .leading) {
+            Text(detailTItle)
+                .font(.system(size: 20.0, weight: .medium, design: .default))
+            Text(detail)
+                .font(.system(size: 20.0, weight: .regular, design: .default))
+
+        }
+
     }
 }

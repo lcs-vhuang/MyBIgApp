@@ -12,6 +12,7 @@
 		A67FEA7F2F54C9DE00712BBF /* MyBIgAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67FEA7B2F54C9DE00712BBF /* MyBIgAppApp.swift */; };
 		A67FEA802F54C9DE00712BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67FEA782F54C9DE00712BBF /* Assets.xcassets */; };
 		A6A224872F55ECC000D2DC0C /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A224862F55ECC000D2DC0C /* ContentView2.swift */; };
+		A6A2248B2F55FBB300D2DC0C /* housesInformation 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A2248A2F55FBB300D2DC0C /* housesInformation 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A67FEA7A2F54C9DE00712BBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A67FEA7B2F54C9DE00712BBF /* MyBIgAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBIgAppApp.swift; sourceTree = "<group>"; };
 		A6A224862F55ECC000D2DC0C /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		A6A2248A2F55FBB300D2DC0C /* housesInformation 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "housesInformation 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				A67FEA7A2F54C9DE00712BBF /* ContentView.swift */,
 				A67FEA792F54C9DE00712BBF /* bookDetail.swift */,
 				A6A224862F55ECC000D2DC0C /* ContentView2.swift */,
+				A6A2248A2F55FBB300D2DC0C /* housesInformation 2.swift */,
 				A67FEA782F54C9DE00712BBF /* Assets.xcassets */,
 			);
 			path = View;
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67FEA7D2F54C9DE00712BBF /* bookDetail.swift in Sources */,
+				A6A2248B2F55FBB300D2DC0C /* housesInformation 2.swift in Sources */,
 				A6A224872F55ECC000D2DC0C /* ContentView2.swift in Sources */,
 				A67FEA7E2F54C9DE00712BBF /* ContentView.swift in Sources */,
 				A67FEA7F2F54C9DE00712BBF /* MyBIgAppApp.swift in Sources */,

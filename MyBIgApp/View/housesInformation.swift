@@ -14,12 +14,16 @@ struct housesInformation: View {
     var description: String
     
     var body: some View{
+        HStack{
             VStack(alignment: .leading){
                 Rectangle()
                     .frame(width: 110, height: 80)
                 Text(house)
                     .font(.system(size: 22.0, weight: .medium, design: .default))
                 Text(description)
+                
+            Image(systemName: "chevron.right")
+            }
         }
         .padding()
     }
